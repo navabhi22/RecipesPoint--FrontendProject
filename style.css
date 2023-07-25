@@ -335,7 +335,12 @@ section nav .icon i:hover{
     color: #fac031;
 }
 
-.main .menu_box .menu_card .menu_icon .menu_info a{
+.main .menu_box .menu_card .menu_icon .menu_info {
+    display: flex;
+    gap: 20px;
+}
+
+.main .menu_box .menu_card .menu_icon .menu_info button{
     width: 60%;
     text-decoration: none;
     text-align: center;
@@ -355,17 +360,48 @@ section nav .icon i:hover{
 .main .menu_box .menu_card .menu_info .Ingredients{
     color: #fac031;
     text-align: left;
-    font-weight: bold;
     font-size: 25px;
 }
 .main .menu_box .menu_card .menu_info .Ingredients .Ingredients-list{
     margin-left: 10px;
+    margin-top: 10px;
+    padding: auto;
     color: black;
-    list-style: none;
+    /* list-style: none; */
     text-align: left;
-    font-size: 20px;
+    font-size: 15px;
 }
 
+.main .menu_box .menu_card .menu_info .review label{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    color: #fac031;
+    text-align: left;
+    font-size: 25px;
+    border-color:#fac031 ;
+    border-radius: 5px;
+}
+
+.main .menu_box .menu_card .menu_info .review textarea{
+    display: flex;
+    flex-direction: row;
+    color: #fac031;
+    text-align: left;
+    font-size: 15px;
+    border-color:#fac031 ;
+    border-radius: 5px;
+}
+.main .menu_box .menu_card .menu_info .review button{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    color: #fac031;
+    text-align: left;
+    font-size: 15px;
+    border-color:#fac031 ;
+    border-radius: 5px;
+}
 footer{
     width: 100%;
     padding: 30px 0 0 20px;
